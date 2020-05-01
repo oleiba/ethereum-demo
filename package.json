@@ -9,7 +9,9 @@
     "transferToken": "node ./transferToken.js",
     "deployMultiSig": "node ./deployMultiSig.js",
     "deployTokenContract": "node ./deployTokenContract.js",
-    "checkBalance": "node ./checkBalance.js"
+    "checkBalance": "node ./checkBalance.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "ethereum",
@@ -27,9 +29,11 @@
     "request": "^2.81.0",
     "solc": "^0.4.16",
     "web3": "^1.0.0-beta.18",
-    "yargs": "^9.0.1"
+    "yargs": "^9.0.1",
+    "snyk": "^1.316.1"
   },
   "yargs": {
     "parse-numbers": false
-  }
+  },
+  "snyk": true
 }

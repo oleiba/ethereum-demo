@@ -25,9 +25,9 @@
     "debug": "^3.1.0",
     "ethereumjs-abi": "^0.6.4",
     "request": "^2.81.0",
-    "solc": "^0.4.16",
+    "solc": "^0.5.13",
     "web3": "^1.0.0-beta.18",
-    "yargs": "^9.0.1"
+    "yargs": "^16.0.0"
   },
   "yargs": {
     "parse-numbers": false

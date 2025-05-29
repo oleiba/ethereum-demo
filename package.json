@@ -27,7 +27,7 @@
     "request": "^2.81.0",
     "solc": "^0.4.16",
     "web3": "^1.0.0-beta.18",
-    "yargs": "^9.0.1"
+    "yargs": "^18.0.0"
   },
   "yargs": {
     "parse-numbers": false
